@@ -11,4 +11,4 @@
 
 (defn -main [day part & _]
   (println "ADVENT OF CODE 2021 day" day "part" part)
-  (println (run (Long/parseLong day) (Long/parseLong part))))
+  (print (run (Long/parseLong day) (Long/parseLong part))))
