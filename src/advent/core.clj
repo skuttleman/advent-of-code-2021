@@ -1,5 +1,6 @@
 (ns advent.core
-  (:require [advent.utils.input :as in]))
+  (:require
+    [advent.utils.input :as in]))
 
 (defn ^:private run [day part]
   (let [sym (doto (symbol (str "advent.days.day-" day))
