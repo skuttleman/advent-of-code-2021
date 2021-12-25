@@ -1,8 +1,8 @@
 (ns advent.days.day-1-test
   (:require
     [advent.days.day-1 :as day-1]
-    [clojure.test :refer [are deftest is testing]]
-    [advent.utils.input :as in]))
+    [advent.utils.input :as in]
+    [clojure.test :refer [are deftest is testing]]))
 
 (deftest diffs-test
   (testing "calculates diffs between sequences"
