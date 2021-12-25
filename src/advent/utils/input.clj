@@ -5,3 +5,6 @@
 
 (defn input [day]
   (string/split-lines (slurp (io/resource (format "fixtures/day-%d.txt" day)))))
+
+(defn parse-ints [xs]
+  (map #(Long/parseLong %) xs))
